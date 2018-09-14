@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="hktest" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/robbie/workspace/media/hk/hktest" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/robbie/workspace/media/hk/hktest/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/robbie/workspace/media/hk/hktest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/robbie/workspace/media/hk/hktest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/robbie/workspace/media/hk/hktest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/robbie/workspace/media/hk/hktest" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/robbie/workspace/media/hk/hktest/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/robbie/workspace/media/hk/hktest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/robbie/workspace/media/hk/hktest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/robbie/workspace/media/hk/hktest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/robbie/workspace/media/hk/hktest" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/robbie/workspace/media/hk/hktest/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/robbie/workspace/media/hk/hktest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/robbie/workspace/media/hk/hktest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/robbie/workspace/media/hk/hktest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="hktest">
+         <Option output="/home/robbie/workspace/media/hk/hktest/hktest" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/robbie/workspace/media/hk/hktest" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DHKDEVICE_EXPORTS" />
+            <Add option="-DGLOG_NO_ABBREVIATED_SEVERITIES" />
+            <Add option="-DGOOGLE_GLOG_DLL_DECL=" />
+            <Add option="-D__x86_64__" />
+            <Add directory="/home/robbie/workspace/media/hk/hktest/." />
+            <Add directory="/home/robbie/workspace/media/hk/hktest/./hksdk/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/robbie/workspace/media/hk/hktest/Makefile&quot;  VERBOSE=1 hktest" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/robbie/workspace/media/hk/hktest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/robbie/workspace/media/hk/hktest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/robbie/workspace/media/hk/hktest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="hktest/fast">
+         <Option output="/home/robbie/workspace/media/hk/hktest/hktest" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/robbie/workspace/media/hk/hktest" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DHKDEVICE_EXPORTS" />
+            <Add option="-DGLOG_NO_ABBREVIATED_SEVERITIES" />
+            <Add option="-DGOOGLE_GLOG_DLL_DECL=" />
+            <Add option="-D__x86_64__" />
+            <Add directory="/home/robbie/workspace/media/hk/hktest/." />
+            <Add directory="/home/robbie/workspace/media/hk/hktest/./hksdk/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/robbie/workspace/media/hk/hktest/Makefile&quot;  VERBOSE=1 hktest/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/robbie/workspace/media/hk/hktest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/robbie/workspace/media/hk/hktest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/robbie/workspace/media/hk/hktest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/robbie/workspace/media/hk/hktest/avdemuxer.cpp">
+         <Option target="hktest"/>
+      </Unit>
+      <Unit filename="/home/robbie/workspace/media/hk/hktest/avdemuxer.h">
+         <Option target="hktest"/>
+      </Unit>
+      <Unit filename="/home/robbie/workspace/media/hk/hktest/buffer.cpp">
+         <Option target="hktest"/>
+      </Unit>
+      <Unit filename="/home/robbie/workspace/media/hk/hktest/buffer.h">
+         <Option target="hktest"/>
+      </Unit>
+      <Unit filename="/home/robbie/workspace/media/hk/hktest/hkcamara.cpp">
+         <Option target="hktest"/>
+      </Unit>
+      <Unit filename="/home/robbie/workspace/media/hk/hktest/hkcamara.h">
+         <Option target="hktest"/>
+      </Unit>
+      <Unit filename="/home/robbie/workspace/media/hk/hktest/main.cpp">
+         <Option target="hktest"/>
+      </Unit>
+      <Unit filename="/home/robbie/workspace/media/hk/hktest/psparser.cpp">
+         <Option target="hktest"/>
+      </Unit>
+      <Unit filename="/home/robbie/workspace/media/hk/hktest/psparser.h">
+         <Option target="hktest"/>
+      </Unit>
+      <Unit filename="/home/robbie/workspace/media/hk/hktest/rtmppublisher.cpp">
+         <Option target="hktest"/>
+      </Unit>
+      <Unit filename="/home/robbie/workspace/media/hk/hktest/rtmppublisher.h">
+         <Option target="hktest"/>
+      </Unit>
+      <Unit filename="/home/robbie/workspace/media/hk/hktest/srs_librtmp.cpp">
+         <Option target="hktest"/>
+      </Unit>
+      <Unit filename="/home/robbie/workspace/media/hk/hktest/srs_librtmp.h">
+         <Option target="hktest"/>
+      </Unit>
+      <Unit filename="/home/robbie/workspace/media/hk/hktest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
